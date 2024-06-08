@@ -193,7 +193,7 @@ body {
             span {
               padding-right: 10px;
               text-align: right;
-              width: 10ch;
+              width: 7ch;
             }
 
             div {
@@ -390,6 +390,12 @@ body {
           grid-row: 2;
           box-shadow: none !important;
           border: none !important;
+
+          > div {
+            span {
+              width: 7ch !important;
+            }
+          }
         }
       }
 

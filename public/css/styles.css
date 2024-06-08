@@ -174,7 +174,7 @@ body .wrapper .main .profile_section .skills > div {
 body .wrapper .main .profile_section .skills > div span {
   padding-right: 10px;
   text-align: right;
-  width: 10ch;
+  width: 7ch;
 }
 body .wrapper .main .profile_section .skills > div div {
   display: grid;
@@ -342,6 +342,9 @@ body .wrapper .main #content .col-group .flex-item .item:hover {
     grid-row: 2;
     box-shadow: none !important;
     border: none !important;
+  }
+  .wrapper .main .profile_section .skills > div span {
+    width: 7ch !important;
   }
   .wrapper .main #content .col-group {
     grid-template-columns: 1fr 1fr !important;
